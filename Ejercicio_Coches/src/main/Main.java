@@ -33,7 +33,7 @@ public class Main {
 				System.out.println(coche.getNombre() + "       " + coche.getVueltas() + "        " + (i + 1));
 			}
 			System.out.println("\n");
-		} while (quedanCoches(coches) == true);
+		} while (UltimosCoche(coches) == true);
 
 	}
 
@@ -49,7 +49,7 @@ public class Main {
 		}
 	}
 
-	public static boolean quedanCoches(Coche[] coches) {
+	public static boolean UltimosCoche(Coche[] coches) {
 
 		for (int i = 0; i < 10; i++) {
 
